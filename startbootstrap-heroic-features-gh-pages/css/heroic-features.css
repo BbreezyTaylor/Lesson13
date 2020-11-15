@@ -1,0 +1,122 @@
+/*!
+ * Start Bootstrap - Heroic Features (https://startbootstrap.com/template/heroic-features)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-heroic-features/blob/master/LICENSE)
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+ :root {
+    /*
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  
+  --font-family-sans-serif: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  --font-family-monospace: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace;*/
+    --font-family-sans-serif: 'Dancing Script', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    --dark: #000;
+    --light: #FFC0CB;
+    --color-text: var(--light);
+    --background-text: var(--dark)
+}
+
+body {
+    padding-top: 56px;
+    font-family: 'Dancing Script', cursive;
+    background-color: #000;
+    color: var(--color-text)
+}
+
+header {
+    background-color: #000;
+    text-shadow: #ffe6f3 1px 0 10px;
+    box-shadow: pink 1px 0 10px;
+}
+
+.navbar .container-fluid {
+    background-color: var(--background-text);
+    color: #FFC0CB;
+    text-shadow: #ffe6f3 1px 0 10px;
+    box-shadow: pink 1px 0 10px;
+}
+
+.navbar .navbar-brand .container-fluid a {
+    color: #FFC0CB;
+    text-shadow: #ffe6f3 1px 0 10px;
+}
+
+.jumbotron {
+    background-color: var(--background-text);
+    text-align: center;
+    padding: 1rem 1rem;
+}
+
+p {
+    box-shadow: #ffe6f3 1px 0 10px;
+    background-color: var(--background-text);
+}
+
+.foot {
+    box-shadow: #ffe6f3 1px 0 10px;
+    background-color: var(--background-text);
+}
+
+footer {
+    text-shadow: #ffe6f3 1px 0 10px;
+    box-shadow: pink 1px 0 10px;
+    color: #FFC0CB;
+    margin: 20px 0 20px 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+/*
+.icons {
+    box-shadow: pink 1px 0 10px;
+    border-radius: 50px;
+    margin: 10px;
+}
+
+.contact-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-content: space-around;
+}
+
+.contact-list a {
+    display: inline-block;
+}
+*/
+
+.card {
+    background-color: #000;
+    text-shadow: #ffe6f3 1px 0 10px;
+    box-shadow: pink 1px 0 10px;
+    padding: 1px;
+}
