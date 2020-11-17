@@ -64,7 +64,8 @@ header {
     box-shadow: pink 1px 0 10px;
 }
 
-.navbar .navbar-brand .container-fluid a {
+.navbar-custom .navbar-brand,
+.navbar-custom .nav-item {
     color: #FFC0CB;
     text-shadow: #ffe6f3 1px 0 10px;
 }
